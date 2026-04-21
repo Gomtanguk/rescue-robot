@@ -1,0 +1,8 @@
+# Optional package-local requirements for camera_system
+# Use the workspace root requirements.txt for full project setup.
+
+numpy>=1.23
+opencv-python>=4.8
+ultralytics>=8.3
+torch>=2.1
+torchvision>=0.16

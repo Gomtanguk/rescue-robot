@@ -1,0 +1,44 @@
+build/
+install/
+log/
+.vscode/
+.codex_tasks/
+src.zip
+AGENTS.md
+.git_backup_before_reinit/
+docs/archive/
+
+# Ignore compiled python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore database and large model files
+*.db
+*.pt
+*.pth
+*.onnx
+*.engine
+*.ckpt
+*.weights
+*.mp3
+*.wav
+*.zip
+
+# Keep documentation and tracked launch/package assets only.
+!README.md
+!requirements.txt
+!docs/**/*.md
+!src/**/README.md
+!src/**/resource/*
+!src/**/launch/*.py
+
+# Ignore legacy analyzer code
+src/rescue_bot/rescue_bot/analyzer/archive/
+src/rescue_bot/rescue_bot/analyzer/testbed/
+src/rescue_bot/rescue_bot/analyzer/webcam_legacy/
+src/rescue_bot/rescue_bot/drawio/
+
+# Ignore test files
+src/rescue_bot/rescue_bot/tests/
