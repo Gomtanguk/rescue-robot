@@ -25,11 +25,14 @@ __pycache__/
 *.mp3
 *.wav
 *.zip
+*.pptx
+*.pdf
 
 # Keep documentation and tracked launch/package assets only.
 !README.md
 !requirements.txt
 !docs/**/*.md
+!docs/*.mp4
 !src/**/README.md
 !src/**/resource/*
 !src/**/launch/*.py
