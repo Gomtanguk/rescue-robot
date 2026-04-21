@@ -2,6 +2,12 @@
 
 구조 로봇 시나리오를 위한 ROS 2 워크스페이스입니다. 카메라 기반 감지, robot5 사람 탐색, robot6 구조 미션 제어, 음성 입출력, 웹 UI를 하나의 워크스페이스에서 다룹니다.
 
+## Quick Summary
+
+- Domain: 다중 로봇 구조 시나리오 워크스페이스
+- Stack: ROS 2 Humble, Python, YOLO, Whisper, Flask
+- Key Packages: `camera_system`, `robot5_person_search`, `rescue_bot`
+
 ## 구조
 
 ```text
